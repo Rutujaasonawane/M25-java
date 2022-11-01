@@ -17,7 +17,7 @@ public class MaxFinderExecutor {
 		
 		//lambda expression without return type
 		MaxFinderDemo obj=(a,b)->a>b?a:b;
-		System.out.println("The maximum no.is: " +obj.max(250, 100));
+		System.out.println("The maximum no.is: " +obj.max(25, 55));
 
 	}
 

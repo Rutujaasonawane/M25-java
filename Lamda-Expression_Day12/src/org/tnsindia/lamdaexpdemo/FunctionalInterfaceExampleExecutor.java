@@ -11,7 +11,7 @@ public class FunctionalInterfaceExampleExecutor {
 			return result;
 			
 		};
-		System.out.println("The maximum number is:" +obj.max(35, 90));
+		System.out.println("The maximum number is:" +obj.max(90, 67));
 
 	}
 

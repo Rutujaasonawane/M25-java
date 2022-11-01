@@ -8,7 +8,7 @@ public class ComparatorDemoUsingLambdaExp {
 
 	public static void main(String[] args) {
 		Comparator<String>obj=(s1,s2)->Integer.compare(s1.length(), s2.length());
-		String str[]= {"Shubham","Rutuja","Rahul","Neha"};
+		String str[]= {"Prashant","Sagar","Shushant","Vicky"};
 		//arrange into the ascending order
 		Collections.sort(Arrays.asList(str),obj);
 		//enhanced for loop to return the string
@@ -18,5 +18,4 @@ public class ComparatorDemoUsingLambdaExp {
 		}
 
 	}
-
 }

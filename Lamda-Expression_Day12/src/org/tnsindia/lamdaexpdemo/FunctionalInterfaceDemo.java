@@ -4,7 +4,6 @@ package org.tnsindia.lamdaexpdemo;
 interface FunctionalInterfaceDemo {
 	//1.Functional interface contains exactly one abstract method
 	//abstract method
-	//functional interfacesDemo
 	String display(String str);
 
 }
